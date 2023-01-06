@@ -1,0 +1,78 @@
+li a {
+  text-decoration-line: none;
+  font-size: 18px;
+  font-family: Didot;
+  font-weight: bold;
+  color: #68349b;
+  text-decoration: none;
+  margin: 0.6rem;
+  padding: 0.6rem;
+  transition: color 0.5s ease-in-out;
+  transition: font-size 0.1s linear;
+}
+
+.burgermenu_knap {
+  text-decoration-line: none;
+  font-size: 18px;
+  font-family: Didot;
+  font-weight: bold;
+  color: #68349b;
+  text-decoration: none;
+  margin: 0.6rem;
+  padding: 0.6rem;
+  transition: color 0.5s ease-in-out;
+  transition: font-size 0.1s linear;
+}
+
+.Link {
+  margin: 0;
+  text-decoration-line: none;
+  font-size: 18px;
+  font-family: Didot;
+  font-weight: bold;
+  color: #68349b;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+  transition: font-size 0.1s linear;
+}
+
+/*links-knapper*/
+
+/* nav {
+  max-width: 500px;
+} */
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #68349b;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #68349b;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: #68349b;
+}
+
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  color: #68349b;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: smaller;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a:hover {
+  /*font-size: 22px;*/
+  color: #a986cb;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,97 @@
+@media (min-width: 800px) {
+  body {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+}
+/*Om mig*/
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+p {
+  margin: 30px;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+/*Burger*/
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+
+  /* 2. Få elementerne til at stå ved siden af hinanden */
+  display: flex;
+  gap: 1rem;
+}
+
+/* burgermenu */
+.burgermenu ul {
+  list-style: none;
+
+  padding: 0;
+
+  /* 2. Få elementerne til at stå ved siden af hinanden */
+
+  display: flex;
+
+  gap: 1rem;
+
+  border: 1em #68349b;
+}
+
+.burgermenu_knap {
+  background: transparent;
+
+  border: none;
+
+  min-width: 44px;
+
+  min-height: 44px;
+
+  font-size: 1.1rem;
+
+  cursor: pointer;
+
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .burgermenu_knap {
+    display: block;
+  }
+
+  .burger-menu.shown {
+    display: contents;
+  }
+
+  .burgermenu ul {
+    display: none;
+  }
+
+  .burgermenu.shown ul {
+    border-top: 1px solid #68349b;
+
+    padding-top: 1rem;
+
+    display: flex;
+
+    flex-flow: column;
+
+    flex-basis: 100%;
+  }
+}
