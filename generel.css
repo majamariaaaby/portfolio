@@ -37,6 +37,7 @@ nav {
   transition: font-size 0.1s linear;
 }
 
+/*Link*/
 .Link {
   margin: 0;
   text-decoration-line: none;
@@ -54,7 +55,7 @@ nav {
   margin-top: 150px;
 }
 
-/*Tekst*/
+/*Overskrifter og tekst*/
 
 h1 {
   font-family: "Times New Roman", Times, serif;
@@ -102,7 +103,6 @@ p {
 }
 
 a:hover {
-  /*font-size: 22px;*/
   color: #a986cb;
 }
 
