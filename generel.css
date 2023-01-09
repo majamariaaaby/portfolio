@@ -11,14 +11,16 @@ li a {
   transition: font-size 0.1s linear;
 }
 
-/*header {
+nav {
   position: fixed;
-  margin-bottom: 3em;
-  padding-bottom: 10em;
   top: 0;
   left: 0;
-  right: 0;
-}*/
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  padding: 0, 30rem;
+  margin: 0, 50rem;
+}
 
 .burgermenu_knap {
   text-decoration-line: none;
@@ -45,38 +47,55 @@ li a {
   transition: font-size 0.1s linear;
 }
 
-/*links-knapper*/
+.ommigfoto {
+  margin-top: 150px;
+}
 
-/* nav {
-  max-width: 500px;
-} */
+/*Tekst*/
 
 h1 {
   font-family: "Times New Roman", Times, serif;
   color: #68349b;
-  color: #68349b;
+  margin-top: 150px;
+  margin-left: 1ch;
+  margin-right: 1ch;
 }
 
 h2 {
   font-family: "Times New Roman", Times, serif;
   color: #68349b;
+  margin-left: 2ch;
+  margin-right: 2ch;
 }
 
 h3 {
   font-family: "Times New Roman", Times, serif;
   color: #68349b;
+  margin-left: 2ch;
+  margin-right: 2ch;
 }
 
 h4 {
   font-family: "Times New Roman", Times, serif;
   color: #68349b;
+  margin-left: 2ch;
+  margin-right: 2ch;
+}
+
+h5 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-left: 2ch;
+  margin-right: 2ch;
 }
 
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: smaller;
-  font-family: "Times New Roman", Times, serif;
-  /*max-width: 65ch;*/
+  margin: 10px 0;
+  max-width: 85ch;
+  margin-left: 5ch;
+  margin-right: 5ch;
 }
 
 a:hover {
