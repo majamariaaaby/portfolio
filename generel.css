@@ -11,6 +11,15 @@ li a {
   transition: font-size 0.1s linear;
 }
 
+/*header {
+  position: fixed;
+  margin-bottom: 3em;
+  padding-bottom: 10em;
+  top: 0;
+  left: 0;
+  right: 0;
+}*/
+
 .burgermenu_knap {
   text-decoration-line: none;
   font-size: 18px;
@@ -67,6 +76,7 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: smaller;
   font-family: "Times New Roman", Times, serif;
+  /*max-width: 65ch;*/
 }
 
 a:hover {
